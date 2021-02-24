@@ -1,0 +1,37 @@
+.garis-videos {
+    margin-bottom: 15px;
+}
+
+.videos{
+    position:relative;
+    left:13px;
+}
+
+.browse{
+    position:relative;
+    left:460px;
+}
+.activity{
+    position:relative;
+    left:850px;
+}
+.timeline{
+    position:relative;
+    left:900px;
+}
+.card.small-1{
+    margin-bottom:10px;
+    height: 60px;
+}
+
+.col-6-md.text{
+    margin-left:0px;
+    padding:0px;
+}
+.image{
+    height:60%;
+    width:20%;
+}
+.people{
+    margin-top:10px;
+}

@@ -1,0 +1,108 @@
+<!-- Header Document -->
+<div class="container-fluid" class="header">
+    <div class="d-flex flex-row bd-highlight mb-0">
+        <div class="p-0 bd-highlight documents">
+            <h2><strong>Document</strong></h2>
+        </div>
+        <div class="p-0 bd-highlight browse">
+            <h4>Browse All Document</h4>
+        </div>
+    </div>
+</div>
+<!-- End Of Header Documents -->
+
+<!-- Documents card -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card videos-big">
+                                <div class="card-body">
+                                    <img class="card-img-top"
+                                        src="https://taxguru.in/wp-content/uploads/2018/04/documents-for-section-8-1-1280x720.jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-footer">
+                                    <h2>Waseem Arshad</h2>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">User Interface Designer</div>
+                                        <div class="ml-auto p-0 bd-highlight">187858 views</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" *ngFor="let document of documents">
+                            <div class="card big-1">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">{{document.name}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-3">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Michael Keligh </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-4">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Ahmad Yasin</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-5">
+                                <div class="card-body align-items-center d-flex justify-content-center"
+                                    style="background-color:rgb(255, 80, 80)">
+                                    <div><i class="bi bi-plus-circle"></i>Share Your Documents</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Of Documents Card -->
+
+<!-- lines -->
+<div class="container-fluid documents">
+    <mat-divider></mat-divider>
+</div>
+<!-- End Of Lines -->
+
+<div class="container-fluid">
+    <div class="footer">
+        <app-footer></app-footer>
+    </div>
+</div>

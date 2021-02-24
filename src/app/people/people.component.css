@@ -1,0 +1,26 @@
+.garis-peoples {
+    margin-bottom: 15px;
+}
+.people{
+    position:relative;
+    left:13px;
+}
+.browse{
+    position:relative;
+    left:530px;
+}
+.activity{
+    position:relative;
+    left:920px;
+}
+.timeline{
+    position:relative;
+    left:980px;
+}
+.row.small-card{
+    margin-bottom:10px;
+}
+.mat-divider{
+    margin-top: 10px;
+}
+

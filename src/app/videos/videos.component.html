@@ -1,0 +1,136 @@
+<!-- header videos -->
+<div class="container-fluid" class="header">
+    <div class="d-flex flex-row bd-highlight mb-0">
+        <div class="p-0 bd-highlight videos">
+            <h2><strong>Videos</strong></h2>
+        </div>
+        <div class=" p-0 bd-highlight browse">
+            <h4>Browse All Videos</h4>
+        </div>
+        <div class="p-0 bd-highlight activity">
+            <h2><strong>Activity</strong></h2>
+        </div>
+        <div class="p-0 bd-highlight timeline">
+            <h4>View Timeline/Filter Activity</h4>
+        </div>
+    </div>
+</div>
+<!-- end of header videos -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card videos-big">
+                                <div class="card-body">
+                                    <img class="card-img-top"
+                                        src="https://agileleanlife.com/wp-content/uploads/2017/01/Learn-or-improve-any-skill.jpg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-footer">
+                                    <h2>How to improve your skills</h2>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Warem Arshad</div>
+                                        <div class="ml-auto p-0 bd-highlight">187858 views</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" *ngFor="let videobig of video">
+                            <div class="card big-1">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">{{videobig.name}}</div>
+                                        <div class="ml-auto p-0 bd-highlight">{{videobig.totalview}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-3">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Michael Keligh </div>
+                                        <div class="ml-auto p-0 bd-highlight">15454 Views</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-4">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Ahmad Yasin</div>
+                                        <div class="ml-auto p-0 bd-highlight">1984 Views</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-5">
+                                <div class="card-body align-items-center d-flex justify-content-center"
+                                    style="background-color:rgb(255, 80, 80)">
+                                    <div><i class="bi bi-arrow-up-circle"></i>Upload Your Own Video</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- section activity -->
+
+                <div class="col-md-3">
+                    <mat-divider class="garis-videos"></mat-divider>
+                    <div class="garis-videos">
+                        <div class="row" *ngFor="let comments of comment">
+                            <div class="col">
+                                <div class="card small-1">
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card small-1" style="background-color:rgb(255, 80, 80)">
+                                    <div class="d-flex-row p-0 bd-highlight">
+                                        <small>{{comments.name}} {{comments.comment}}</small>
+                                    </div>
+                                    <div class="d-flex-row p-0 bd-highlight"><small>{{comments.content}}</small>
+                                    </div>
+                                    <div class="d-flex-row p-0 bd-highlight">
+                                        <img [src]="comments.image" class="image"> <small> {{comments.time}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of section -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="people">
+    <app-people></app-people>
+</div>

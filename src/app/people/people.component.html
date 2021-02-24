@@ -1,0 +1,134 @@
+<!-- header people -->
+<div class="container-fluid" class="header">
+    <div class="d-flex flex-row bd-highlight mb-0">
+        <div class="p-0 bd-highlight people">
+            <h2><strong>People</strong></h2>
+        </div>
+        <div class="p-0 bd-highlight browse">
+            <h4>View all</h4>
+        </div>
+        <div class="p-0 bd-highlight activity">
+            <h2><strong>Channel</strong></h2>
+        </div>
+        <div class="p-0 bd-highlight timeline">
+            <h4>Browse All Channel</h4>
+        </div>
+    </div>
+</div>
+<!-- end of header people -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card videos-big">
+                                <div class="card-body">
+                                    <img class="card-img-top"
+                                        src="https://miro.medium.com/max/1050/1*hp-yfKsmzsj711iLbM8eEw.jpeg"
+                                        alt="Card image cap">
+                                </div>
+                                <div class="card-footer">
+                                    <h2>Waseem Arshad</h2>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">User Interface Designer</div>
+                                        <div class="ml-auto p-0 bd-highlight">187858 views</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" *ngFor="let people of peoples">
+                            <div class="card big-1">
+                                <div class="card-body">
+                                    <img>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">{{people.name}}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-3">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Michael Keligh </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-4">
+                                <div class="card-body">
+                                </div>
+                                <div class="card-footer">
+                                    <div class="d-flex flex-row bd-highlight mb-0">
+                                        <div class="mr-auto p-0 bd-highlight">Ahmad Yasin</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card big-5">
+                                <div class="card-body align-items-center d-flex justify-content-center"
+                                    style="background-color:rgb(255, 80, 80)">
+                                    <div><i class="bi bi-record-circle"></i>Share Your Works</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- section activity -->
+                <div class="col-md-3">
+                    <mat-divider class="garis-peoples"></mat-divider>
+                    <div class="garis-peoples">
+                        <div class="row small-card" *ngFor="let app of apps">
+                            <div class="col">
+                                <div class="card small-card-2">
+                                    <div class="card-body">
+                                    </div>
+                                    <div class="card-footer">
+                                        {{app.name}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card small-card-3">
+                                    <div class="card-body">
+                                    </div>
+                                    <div class="card-footer">
+                                        {{app.application}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of section -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="documents">
+    <app-documents></app-documents>
+</div>

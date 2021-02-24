@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.card-img-top {
+    width: 100%;
+    height: 24vh;
+    object-fit: cover;
+    }
+
+.mat-divider {
+    border-top-color:rgb(255, 255, 153);
+}
+.header{
+    color:rgb(255, 255, 153);
+}
+a.nav-link{
+    color:rgb(255, 255, 153);
+}
+.mat-typography{
+    background-color:rgb(255, 80, 80);
+}
+
+.card.videos-big, .card.big-1, .card.big-2, .card.big-3, .card.big-4, .card-big-5, .card.small-1, .card.small-card-2, .card.small-card-3 {
+    background-color:rgb(255, 255, 153);
+}
+.p-2.bd-highlight{
+    font-size:1rem;
+}
+
+.card.videos-big{
+    margin-bottom:10px;
+    height: 300px;
+
+}
+.card.big-1, .card.big-2{
+    margin-top:20px;
+    margin-bottom:10px;
+    height: 200px;
+}
+.card.big-3, .card.big-4{
+    margin-bottom:20px;
+    height: 140px;
+}
+.card.big-5{
+    margin-top:10px;
+    margin-bottom:10px;
+    height: 200px;
+}
+.p-0.bd-highlight {
+    margin-top: auto;
+}

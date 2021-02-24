@@ -1,0 +1,21 @@
+.card-img-top {
+    width: 100%;
+    height: 24vh;
+    object-fit: cover;
+    }
+.documents{
+    position:relative;
+    left:13px;
+}
+.browse{
+    position:relative;
+    left:600px;
+}
+.container-fluid.documents{
+    margin-top:100px;
+}
+
+
+.footer{
+    margin-top:10px;
+}

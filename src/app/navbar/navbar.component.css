@@ -1,0 +1,23 @@
+
+
+.header{
+    position:relative;
+    margin-left: 13px;
+}
+span 
+    { 
+        font-weight: bold;
+        font-size: 20px;   
+    }
+span b 
+    { 
+        font-size: 20px;
+        font-weight: normal; 
+    }
+.row {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.videos{
+    margin-top:10px;
+}
