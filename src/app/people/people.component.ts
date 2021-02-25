@@ -3,10 +3,12 @@ import peopleVideo from '../../assets/peopleVideo.json';
 import app from '../../assets/app.json';
 interface people {
   name: string;
+  image: string;
 }
 interface app {
   name: string;
   application: string;
+  image: string;
 }
 
 @Component({

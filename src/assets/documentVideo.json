@@ -1,10 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Wasem Arshad"
+        "name": "Wasem Arshad",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51rycGOW4OL.jpg"
     },
     {
         "id": 2,
-        "name": "John Stationair"
+        "name": "John Stationair",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51rycGOW4OL.jpg"
     }
 ]

@@ -3,6 +3,7 @@ import documentVideo from '../../assets/documentVideo.json'
 
 interface document {
   name: string;
+  image: string;
 }
 
 @Component({

@@ -48,3 +48,6 @@ a.nav-link{
 .p-0.bd-highlight {
     margin-top: auto;
 }
+.card-footer{
+    color:red;
+}

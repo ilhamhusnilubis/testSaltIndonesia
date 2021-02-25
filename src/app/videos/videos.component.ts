@@ -5,6 +5,7 @@ import commentVideo from '../../assets/commentVideo.json'
 interface videobig {
   name: string;
   totalview: string;
+  image: string;
 }
 
 interface comments {
@@ -13,6 +14,7 @@ interface comments {
   content: string;
   time: string;
   image: string;
+  img: string;
 }
 
 @Component({

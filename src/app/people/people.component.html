@@ -26,7 +26,7 @@
                         <div class="col-md-12">
                             <div class="card videos-big">
                                 <div class="card-body">
-                                    <img class="card-img-top"
+                                    <img class="card-img-top-2"
                                         src="https://miro.medium.com/max/1050/1*hp-yfKsmzsj711iLbM8eEw.jpeg"
                                         alt="Card image cap">
                                 </div>
@@ -46,7 +46,7 @@
                         <div class="col-md-6" *ngFor="let people of peoples">
                             <div class="card big-1">
                                 <div class="card-body">
-                                    <img>
+                                    <img class="card-img-top-3" [src]="people.image" alt="Card image cap">
                                 </div>
                                 <div class="card-footer">
                                     <div class="d-flex flex-row bd-highlight mb-0">
@@ -62,6 +62,8 @@
                         <div class="col-md-12">
                             <div class="card big-3">
                                 <div class="card-body">
+                                    <img src="../../assets/skill.jpg" class="image" alt="Card image cap"
+                                        class="card-img-top-1 img-fluid">
                                 </div>
                                 <div class="card-footer">
                                     <div class="d-flex flex-row bd-highlight mb-0">
@@ -75,6 +77,8 @@
                         <div class="col-md-12">
                             <div class="card big-4">
                                 <div class="card-body">
+                                    <img src="../../assets/skill.jpg" class="image" alt="Card image cap"
+                                        class="card-img-top-1">
                                 </div>
                                 <div class="card-footer">
                                     <div class="d-flex flex-row bd-highlight mb-0">
@@ -104,6 +108,7 @@
                             <div class="col">
                                 <div class="card small-card-2">
                                     <div class="card-body">
+                                        <img class="card-img-top" [src]="app.image" alt="Card image cap">
                                     </div>
                                     <div class="card-footer">
                                         {{app.name}}
@@ -113,6 +118,7 @@
                             <div class="col">
                                 <div class="card small-card-3">
                                     <div class="card-body">
+                                        <img class="card-img-top" [src]="app.image" alt="Card image cap">
                                     </div>
                                     <div class="card-footer">
                                         {{app.application}}
